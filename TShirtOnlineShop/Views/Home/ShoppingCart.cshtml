@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Shopping Cart";
+}
+@section css
+{
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+}
+
+<div id="content">
+
+    <div id="eptcart">
+        <h2 style="padding: 10px; margin-top: 40px; font-size: 40px"><b>Checkout</b></h2>
+        <p style="padding-bottom: 40px; font-size: 20px">Your cart is empty! Please add some products.</p>
+
+        <form action="#">
+            <button class="btn" type="submit">Choose products <i class="fa fa-angle-double-right"></i> </button>
+        </form>
+    </div>
+</div>
+
+
+

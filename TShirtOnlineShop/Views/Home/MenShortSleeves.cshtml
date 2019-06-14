@@ -1,0 +1,283 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Men";
+}
+@section css
+{
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/ShortSleeves.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+}
+
+<div id="content-products">
+    <div id="bread-container-1">
+        <ul class="breadcrumb1">
+            <li><a>@Html.ActionLink("Home", "HomePage", "Home")</a></li>
+            <li><strong>Men Short Sleeves </strong></li>
+        </ul>
+    </div>
+
+    <div class="product-container-col">
+        <h3 class="block-head">
+            <a href="#">Men Short Sleeves</a>
+        </h3>
+    </div>
+
+    <div class="filter-container">
+        <div class="select-option">
+            <select>
+                <option value="Sizes"> Sizes </option>
+                <option value="XXL"> XXL </option>
+                <option value="XL"> XL  </option>
+                <option value="L"> L   </option>
+                <option value="M"> M   </option>
+                <option value="XM"> S </option>
+                <option value="XM"> XS </option>
+            </select>
+        </div>
+        <div class="select-option">
+            <select>
+                <option value="Colors"> Colors </option>
+                <option value="Blue"> Blue </option>
+                <option value="Gray"> Gray </option>
+                <option value="Black"> Black   </option>
+                <option value="White"> White  </option>
+                <option value="Red"> Red </option>
+            </select>
+        </div>
+        <div class="select-option">
+            <select>
+                <option value="Price"> Price </option>
+                <option value="High"> High Price </option>
+                <option value="Medium"> Medium Price </option>
+                <option value="Low"> Low Price   </option>
+            </select>
+        </div>
+        <div class="select-option">
+            <button id="findBtn" type="button" name="button" title="Find suitable product">Find</button>
+        </div>
+    </div>
+
+    <div class="content-categories">
+
+        <div class="product-container-4-col">
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men15.jpg" />
+                    <img src="~/Content/images/men15-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Lazer Cats</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men13.jpg" />
+                    <img src="~/Content/images/men13-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Like Adults</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men14.jpg" />
+                    <img src="~/Content/images/men14-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Bike Front</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men16.jpg" />
+                    <img src="~/Content/images/men16-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Caffeine Kick</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="product-container-4-col">
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men15.jpg" />
+                    <img src="~/Content/images/men15-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Lazer Cats</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men13.jpg" />
+                    <img src="~/Content/images/men13-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Like Adults</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men14.jpg" />
+                    <img src="~/Content/images/men14-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Bike Front</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men16.jpg" />
+                    <img src="~/Content/images/men16-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Caffeine Kick</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="product-container-4-col">
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men15.jpg" />
+                    <img src="~/Content/images/men15-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Lazer Cats</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men13.jpg" />
+                    <img src="~/Content/images/men13-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Like Adults </h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men14.jpg" />
+                    <img src="~/Content/images/men14-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Bike Front</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men16.jpg" />
+                    <img src="~/Content/images/men16-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Caffeine Kick</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="product-container-4-col">
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men15.jpg" />
+                    <img src="~/Content/images/men15-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Lazer Cats</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men13.jpg" />
+                    <img src="~/Content/images/men13-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Like Adults</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men14.jpg" />
+                    <img src="~/Content/images/men14-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Bike Front</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="item-image-4-col">
+                    <img src="~/Content/images/men16.jpg" />
+                    <img src="~/Content/images/men16-1.jpg" />
+                </div>
+
+                <div class="product-caption">
+                    <h3>Short sleeves: Stockholm Caffeine Kick</h3>
+                    <p>Price: $19.00</p>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="center">
+            <div class="paging">
+                <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
