@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity.Validation;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using TShirtOnlineShop.Models;
@@ -38,7 +39,7 @@ namespace TShirtOnlineShop.Controllers
 
         public ActionResult SearchBar()
         {
-            return View();
+            return View();  
         }
 
 
